@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-alibaba.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-alibaba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba-register/springcloud-alibaba-register.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba-register/springcloud-alibaba-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba-dependencies/springcloud-dependencies.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba-dependencies/springcloud-dependencies.iml" />
+    </modules>
+  </component>
+</project>
