@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="myshop-service-reg" />
+        <module name="spring-cloud-alibaba-consumer" />
         <module name="spring-cloud-alibaba-register" />
         <module name="springcloud-alibaba-register" />
         <module name="springcloud-eureka" />
@@ -15,8 +16,9 @@
     <bytecodeTargetLevel>
       <module name="microserver-dependencies" target="1.8" />
       <module name="myshop-service-reg" target="1.5" />
+      <module name="spring-cloud-alibaba-consumer" target="1.8" />
       <module name="spring-cloud-alibaba-dependencies" target="1.8" />
-      <module name="spring-cloud-alibaba-register" target="1.5" />
+      <module name="spring-cloud-alibaba-register" target="1.8" />
       <module name="springcloud-alibaba-register" target="1.8" />
       <module name="springcloud-dependencies" target="1.8" />
       <module name="springcloud-eureka" target="1.8" />
@@ -26,6 +28,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="myshop-service-reg" options="-parameters" />
+      <module name="spring-cloud-alibaba-consumer" options="-parameters" />
       <module name="spring-cloud-alibaba-register" options="-parameters" />
       <module name="springcloud-alibaba-register" options="-parameters" />
       <module name="springcloud-eureka" options="-parameters" />

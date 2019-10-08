@@ -21,7 +21,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <!-- Spring Cloud Settings -->
-        <spring-cloud.version>Greenwich</spring-cloud.version>
+        <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
         <spring-cloud-alibaba.version>2.1.0.RELEASE</spring-cloud-alibaba.version>
 
         <!-- Spring Boot Settings -->
@@ -36,7 +36,6 @@
     <dependencyManagement>
 
         <dependencies>
-
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -60,12 +59,9 @@
                 <version>${spring-boot-alibaba-druid.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>tk.mybatis</groupId>
-                <artifactId>mapper-spring-boot-starter</artifactId>
-                <version>${spring-boot-tk-mybatis.version}</version>
-            </dependency>
 
+
+            <!-- JDBC -->
             <dependency>
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper-spring-boot-starter</artifactId>
@@ -79,6 +75,9 @@
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.version}</version>
             </dependency>
+            <!-- JDBC -->
+
+
             <!-- Commons End -->
         </dependencies>
     </dependencyManagement>

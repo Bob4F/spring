@@ -37,12 +37,12 @@ API网关:没有 / 找第三方
 Service Mesh 服务网格
 Istio 框架
 
-分布式永远逃不离的问题 网络不可靠(CAP定理)
-
+分布式永远逃不离的问题:网络不可靠(CAP定理)
 
 
 ## Spring 统一依赖管理
 Spring-cloud-dependcy 
 
 ## 服务注册与发现
-spring-cloud-eureka
+spring-cloud-alibaba-register
+技术栈：Nacos
