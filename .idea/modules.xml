@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-dependencies/microserver-dependencies.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-dependencies/microserver-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-reg/myshop-service-reg.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-reg/myshop-service-reg.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring.iml" filepath="$PROJECT_DIR$/.idea/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-dependencies/spring-cloud-alibaba-dependencies.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-dependencies/spring-cloud-alibaba-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-register/spring-cloud-alibaba-register.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-register/spring-cloud-alibaba-register.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-register/springcloud-alibaba-register.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-register/springcloud-alibaba-register.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-dependencies/springcloud-dependencies.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-dependencies/springcloud-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-reg/springcloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-reg/springcloud-eureka.iml" />
