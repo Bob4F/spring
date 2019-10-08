@@ -1,5 +1,6 @@
 package github.lucas.nacos.register.controller;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,8 +14,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class EchoController {
 
+
+    @Value("${server.port}")
+    private String port;
+
     @GetMapping(value = "/echo/{message}")
-    public String echo(@PathVariable String message) {
-        return "Hello Nacos Discovery " + message;
+    public String echo(@PathVariable(name="message") String message) {
+        System.out.println("port:"+port);
+        return "from:"+ port+",Hello Nacos " + message;
     }
 }

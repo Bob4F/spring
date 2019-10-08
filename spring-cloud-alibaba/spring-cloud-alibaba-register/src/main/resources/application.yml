@@ -5,11 +5,10 @@ spring:
     nacos:
       discovery:
         server-addr: 192.168.18.44:8848
-        port: 8081
         weight: 1
 
 server:
-  port: 8081
+  port: 9001
 
 management:
   endpoints:

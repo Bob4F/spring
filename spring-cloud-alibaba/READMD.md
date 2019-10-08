@@ -40,9 +40,11 @@ Istio 框架
 分布式永远逃不离的问题:网络不可靠(CAP定理)
 
 
-## Spring 统一依赖管理
++ 统一依赖管理  
 Spring-cloud-dependcy 
-
-## 服务注册与发现
++ 服务注册与发现  
 spring-cloud-alibaba-register
 技术栈：Nacos
++ 服务消费者  
+spring-cloud-alibaba-consumer  
+tip:feign
