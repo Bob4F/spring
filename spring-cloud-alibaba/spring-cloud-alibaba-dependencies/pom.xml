@@ -22,7 +22,7 @@
 
         <!-- Spring Cloud Settings -->
         <spring-cloud.version>Greenwich</spring-cloud.version>
-        <spring-cloud-alibaba.version>0.9.0.RELEASE</spring-cloud-alibaba.version>
+        <spring-cloud-alibaba.version>2.1.0.RELEASE</spring-cloud-alibaba.version>
 
         <!-- Spring Boot Settings -->
         <spring-boot-alibaba-druid.version>1.1.10</spring-boot-alibaba-druid.version>
@@ -32,8 +32,6 @@
         <!-- Commons Settings -->
         <mysql.version>8.0.13</mysql.version>
     </properties>
-
-
 
     <dependencyManagement>
 
@@ -47,8 +45,16 @@
                 <scope>import</scope>
             </dependency>
 
-            <dependency>
+           <!-- <dependency>
                 <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>-->
+
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
                 <version>${spring-cloud-alibaba.version}</version>
                 <type>pom</type>
@@ -244,18 +250,6 @@
             </snapshots>
         </repository>
 
-
-        <repository>
-            <id>sonatype-repos-s</id>
-            <name>Sonatype Repository</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
 
         <repository>
             <id>spring-snapshots</id>
