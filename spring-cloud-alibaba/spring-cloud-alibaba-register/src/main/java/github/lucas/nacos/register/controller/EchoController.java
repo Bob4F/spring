@@ -20,7 +20,6 @@ public class EchoController {
 
     @GetMapping(value = "/echo/{message}")
     public String echo(@PathVariable(name="message") String message) {
-        System.out.println("port:"+port);
         return "from:"+ port+",Hello Nacos " + message;
     }
 }

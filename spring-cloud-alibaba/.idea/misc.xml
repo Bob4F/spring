@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/spring-cloud-alibaba-register/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-alibaba-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-alibaba-consumer/pom.xml" />
       </list>
     </option>
   </component>
