@@ -29,8 +29,7 @@
         </dependency>
         <!-- Spring Boot End -->
 
-        <!-- Spring Cloud Begin -->
-        <!-- https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-nacos-discovery -->
+        <!-- Spring Cloud alibaba giBegin -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
