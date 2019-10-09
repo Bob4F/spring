@@ -6,6 +6,10 @@ spring:
       discovery:
         server-addr: 192.168.18.44:8848
         weight: 1
+    sentinel:
+     transport:
+        dashboard: 192.168.18.44:8780
+        port: 8719
 
 server:
   port: 10000
@@ -15,3 +19,6 @@ management:
     web:
       exposure:
         include: "*"
+feign:
+  sentinel:
+    enabled: true

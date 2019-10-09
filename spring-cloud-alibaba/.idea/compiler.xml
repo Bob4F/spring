@@ -8,21 +8,26 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-alibaba-consumer" />
         <module name="spring-cloud-alibaba-register" />
+        <module name="spring-cloud-gateway" />
         <module name="springcloud-alibaba-register" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="gateway" target="1.8" />
       <module name="spring-cloud-alibaba-consumer" target="1.8" />
       <module name="spring-cloud-alibaba-dependencies" target="1.8" />
       <module name="spring-cloud-alibaba-register" target="1.8" />
+      <module name="spring-cloud-gateway" target="1.8" />
       <module name="springcloud-alibaba-register" target="1.8" />
       <module name="springcloud-dependencies" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gateway" options="-parameters" />
       <module name="spring-cloud-alibaba-consumer" options="-parameters" />
       <module name="spring-cloud-alibaba-register" options="-parameters" />
+      <module name="spring-cloud-gateway" options="-parameters" />
       <module name="springcloud-alibaba-register" options="-parameters" />
     </option>
   </component>
