@@ -1,0 +1,8 @@
+server:
+  port: 8888
+  ssl:
+    key-store: classpath:test2.ezblock.com.cn.jks
+    key-password: 123456
+    key-store-type: JKS
+    enabled: true
+
