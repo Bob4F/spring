@@ -32,7 +32,7 @@ public class AuthFilter implements GlobalFilter, Ordered {
             // 封装错误信息
             Map<String, Object> responseData = Maps.newHashMap();
             responseData.put("code", 401);
-            responseData.put("message", "非法请求");
+            responseData.put("message","非法请求");
             responseData.put("cause", "Token is empty");
             try {
                 // 将信息转换为 JSON
