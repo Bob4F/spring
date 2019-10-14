@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-consumer/spring-cloud-alibaba-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-consumer/spring-cloud-alibaba-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-dependencies/spring-cloud-alibaba-dependencies.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-dependencies/spring-cloud-alibaba-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-register/spring-cloud-alibaba-register.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-register/spring-cloud-alibaba-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-gateway/spring-cloud-gateway.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-gateway/spring-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-external-skywalking/spring-cloud-skywalking.iml" filepath="$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-external-skywalking/spring-cloud-skywalking.iml" />
     </modules>
   </component>
 </project>

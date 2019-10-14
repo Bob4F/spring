@@ -11,6 +11,8 @@
         <module name="myshop-service-reg" />
         <module name="spring-cloud-alibaba-consumer" />
         <module name="spring-cloud-alibaba-register" />
+        <module name="spring-cloud-gateway" />
+        <module name="spring-cloud-skywalking" />
         <module name="springcloud-alibaba-register" />
         <module name="springcloud-eureka" />
       </profile>
@@ -23,6 +25,8 @@
       <module name="spring-cloud-alibaba-consumer" target="1.8" />
       <module name="spring-cloud-alibaba-dependencies" target="1.8" />
       <module name="spring-cloud-alibaba-register" target="1.8" />
+      <module name="spring-cloud-gateway" target="1.8" />
+      <module name="spring-cloud-skywalking" target="1.8" />
       <module name="springcloud-alibaba-register" target="1.8" />
       <module name="springcloud-dependencies" target="1.8" />
       <module name="springcloud-eureka" target="1.8" />
@@ -36,6 +40,8 @@
       <module name="myshop-service-reg" options="-parameters" />
       <module name="spring-cloud-alibaba-consumer" options="-parameters" />
       <module name="spring-cloud-alibaba-register" options="-parameters" />
+      <module name="spring-cloud-gateway" options="-parameters" />
+      <module name="spring-cloud-skywalking" options="-parameters" />
       <module name="springcloud-alibaba-register" options="-parameters" />
       <module name="springcloud-eureka" options="-parameters" />
       <module name="springcloud-reg" options="-parameters" />

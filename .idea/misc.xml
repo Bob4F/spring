@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-register/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-alibaba-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/https/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-alibaba/spring-cloud-external-skywalking/pom.xml" />
       </list>
     </option>
   </component>
