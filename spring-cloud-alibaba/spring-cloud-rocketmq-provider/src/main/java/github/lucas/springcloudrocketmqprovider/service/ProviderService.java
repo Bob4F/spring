@@ -18,9 +18,7 @@ public class ProviderService {
     private MessageChannel output;
 
     public void send(String message) {
-        System.out.println("输出信息");
         output.send(MessageBuilder.withPayload(message).build());
     }
-
 
 }

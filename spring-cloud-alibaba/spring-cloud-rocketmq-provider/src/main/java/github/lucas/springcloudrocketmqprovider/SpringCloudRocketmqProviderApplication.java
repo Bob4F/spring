@@ -18,6 +18,9 @@ public class SpringCloudRocketmqProviderApplication implements CommandLineRunner
     @Autowired
     private MessageChannel output;
 
+    @Autowired
+    ProviderService service;
+
     public static void main(String[] args) {
         SpringApplication.run(SpringCloudRocketmqProviderApplication.class, args);
     }
@@ -29,7 +32,7 @@ public class SpringCloudRocketmqProviderApplication implements CommandLineRunner
      */
     @Override
     public void run(String... args) throws Exception {
-        output.send(MessageBuilder.withPayload("Hello RocketMQ").build());
+        service.send("你好 消费者");
     }
 
 }

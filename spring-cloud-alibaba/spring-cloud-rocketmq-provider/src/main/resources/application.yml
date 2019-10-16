@@ -6,7 +6,7 @@ spring:
       rocketmq:
         binder:
           # RocketMQ 服务器地址
-          name-server: 192.168.18.47:9876
+          name-server: 192.168.18.56:9876
       bindings:
         # 这里是个 Map 类型参数，{} 为 YAML 中 Map 的行内写法
         output: {destination: test-topic, content-type: application/json}

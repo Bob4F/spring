@@ -40,15 +40,17 @@ Istio 框架
 分布式永远逃不离的问题:网络不可靠(CAP定理)
 
 ### 分布式系统架构:
-+ 统一依赖管理  
-Spring-cloud-dependcy 
-+ 服务注册与发现  
-spring-cloud-alibaba-register
-tip：Nacos(基础设施)
-+ 服务消费者  
-spring-cloud-alibaba-consumer  
-tip:feign
++ 统一依赖管理   *Spring-cloud-dependcy*
+
++ 服务注册与发现   *Spring-cloud-alibaba-register*  
+tips：Nacos(基础设施)
++ 服务消费者  *Spring-cloud-alibaba-consumer*   
+tips:feign
 实现负载均衡
 + 服务熔断 防止雪崩  
-tip: 阿里的 **Sentinel**  
+tips: 阿里的 **Sentinel**  
 Sentinel 控制台
++ Stream RocketMQ   
+spring-cloud-rocketmq-consumer rocketmq 服务消费者  
+spring-cloud-rocketmq-provider rocketmq 信息生产者
+
