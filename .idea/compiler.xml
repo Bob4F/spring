@@ -7,26 +7,33 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="com.lucas" />
+        <module name="elk-log" />
         <module name="https" />
         <module name="myshop-service-reg" />
         <module name="spring-cloud-alibaba-consumer" />
         <module name="spring-cloud-alibaba-register" />
+        <module name="spring-cloud-external-skywalking" />
         <module name="spring-cloud-gateway" />
         <module name="spring-cloud-skywalking" />
+        <module name="spring-data" />
         <module name="springcloud-alibaba-register" />
         <module name="springcloud-eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.lucas" target="1.8" />
+      <module name="elk-log" target="1.8" />
+      <module name="ezblock-country" target="1.8" />
       <module name="https" target="1.8" />
       <module name="microserver-dependencies" target="1.8" />
       <module name="myshop-service-reg" target="1.5" />
       <module name="spring-cloud-alibaba-consumer" target="1.8" />
       <module name="spring-cloud-alibaba-dependencies" target="1.8" />
       <module name="spring-cloud-alibaba-register" target="1.8" />
+      <module name="spring-cloud-external-skywalking" target="1.8" />
       <module name="spring-cloud-gateway" target="1.8" />
       <module name="spring-cloud-skywalking" target="1.8" />
+      <module name="spring-data" target="1.8" />
       <module name="springcloud-alibaba-register" target="1.8" />
       <module name="springcloud-dependencies" target="1.8" />
       <module name="springcloud-eureka" target="1.8" />
@@ -36,12 +43,16 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="com.lucas" options="-parameters" />
+      <module name="elk-log" options="-parameters" />
+      <module name="ezblock-country" options="-parameters" />
       <module name="https" options="-parameters" />
       <module name="myshop-service-reg" options="-parameters" />
       <module name="spring-cloud-alibaba-consumer" options="-parameters" />
       <module name="spring-cloud-alibaba-register" options="-parameters" />
+      <module name="spring-cloud-external-skywalking" options="-parameters" />
       <module name="spring-cloud-gateway" options="-parameters" />
       <module name="spring-cloud-skywalking" options="-parameters" />
+      <module name="spring-data" options="-parameters" />
       <module name="springcloud-alibaba-register" options="-parameters" />
       <module name="springcloud-eureka" options="-parameters" />
       <module name="springcloud-reg" options="-parameters" />

@@ -8,7 +8,6 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>github.lucas</groupId>
     <artifactId>spring-cloud-rocketmq-consumer</artifactId>
     <name>spring-cloud-rocketmq-consumer</name>
     <description>Demo project for Spring Boot</description>
@@ -39,8 +38,6 @@
             <version>1.18.8</version>
         </dependency>
 
-
-
         <!-- jackson -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -49,13 +46,5 @@
 
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

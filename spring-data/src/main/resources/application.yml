@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: data-exaeple
+  redis:
+    host: 47.92.86.79
+    port: 6379
+    password: sunfounder
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+        min-idle: 0
